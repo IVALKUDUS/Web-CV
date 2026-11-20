@@ -102,9 +102,10 @@
   padding: .4rem 2rem;
 }
 .tema-kreatif .skills { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
-.tema-kreatif .skills li:nth-child(1) { background: var(--oranye); color: var(--putih); text-align: center; padding: .5rem 1rem; border-radius: 999px; font-size: 1.02rem; }
-.tema-kreatif .skills li:nth-child(2) { background: var(--merah); color: var(--putih); text-align: center; padding: .5rem 1rem; border-radius: 999px; font-size: 1.02rem; }
-.tema-kreatif .skills li:nth-child(3) { background: var(--hijau); color: var(--putih); text-align: center; padding: .5rem 1rem; border-radius: 999px; font-size: 1.02rem; }
+.tema-kreatif .skills li { color: var(--putih); text-align: center; padding: .5rem 1rem; border-radius: 999px; font-size: 1.02rem; }
+.tema-kreatif .skills li:nth-child(3n+1) { background: var(--oranye); }
+.tema-kreatif .skills li:nth-child(3n+2) { background: var(--merah); }
+.tema-kreatif .skills li:nth-child(3n) { background: var(--hijau); }
 /* KONTAK */
 .tema-kreatif .kontak-bar { padding: 1rem 1.6rem; }
 .tema-kreatif .kontak { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem 1.6rem; font-size: .88rem; }
@@ -134,3 +135,8 @@
 .tema-kreatif * { transition: none !important; }
 }
 .tema-kreatif { min-height: 100vh; }
+
+/* Detail proyek */
+.tema-kreatif .proyek p.stack { margin-top: .5rem; font-size: .8rem; font-weight: 600; color: var(--hijau); }
+.tema-kreatif .proyek p.link-proyek { margin-top: .4rem; font-size: .85rem; }
+.tema-kreatif .link-proyek a { font-weight: 600; color: var(--oranye-teks); text-decoration: underline; text-underline-offset: 3px; }

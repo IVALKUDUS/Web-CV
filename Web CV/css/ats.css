@@ -142,3 +142,7 @@
 .tema-ats * { transition: none !important; }
 }
 .tema-ats { min-height: 100vh; }
+
+/* Link proyek */
+.tema-ats .proyek p.link-proyek { margin-top: .8rem; font-size: .9rem; }
+.tema-ats .link-proyek a { font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
